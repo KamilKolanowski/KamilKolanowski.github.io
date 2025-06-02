@@ -28,6 +28,44 @@ body {
   flex: 1;
 }
 
+.content-section article {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 1rem; 
+    justify-content: center;
+    margin-top: 20px;
+    width: 90%;
+}
+
+.content-section article .project {
+    flex: 1 1 calc(50% - 1rem);
+    gap: 1em;
+    min-width: 200px;
+    min-height: 30vh;
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
+.content-section article .project img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    box-shadow: 0 8px 14px rgba(0, 0, 0, 0.6);
+}
+
+.project-name {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.project-name a {
+    color: #97e4f0;
+}
+
 .content-section-box {
   display: flex;
   flex-flow: column wrap;
@@ -45,7 +83,8 @@ body {
 
 article p {
   margin-bottom: 1.25rem;
-  min-height: 4.5em;
+  min-height: 9em;
+  font-style: italic;
 }
 
 .content-section-box article,
@@ -61,6 +100,9 @@ header {
   background-color: aquamarine;
   height: 50px;
   width: 100%;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
 }
 
 ul {
