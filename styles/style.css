@@ -35,7 +35,7 @@ body {
     gap: 1rem; 
     justify-content: center;
     margin-top: 20px;
-    width: 80vw;
+    max-width: 60vw;
     min-height: 40vh;
 }
 
