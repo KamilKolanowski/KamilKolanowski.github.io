@@ -55,6 +55,7 @@ body {
 .content-section article .project p {
   flex-grow: 1;
   display: flex;
+  text-align: justify;
   align-items: center;
   min-height: 6em;
 }
