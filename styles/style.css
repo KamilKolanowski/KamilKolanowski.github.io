@@ -63,27 +63,6 @@ body {
   margin-top: auto;
 }
 
-/* .other button{
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  margin: 2rem 1.5rem;
-  width: 20rem;
-  height: 5rem;
-  font-size: 1.5rem;
-  gap: 1em;
-  cursor: pointer;
-  background: linear-gradient(135deg, #333 0%, #24292e 100%);
-} */
-
-/* .other button:hover {
-  background-color: #2f363d;
-  border-color: #6a737d;
-  transform: translateY(-1px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-} */
-
 .other a {
   text-decoration: none;
 }
